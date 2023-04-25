@@ -1,0 +1,60 @@
+const familyMembers = [
+  {
+    name: "Jessica",
+    avatar: "images/jess.jpg",
+    age: 39,
+    bio: "Amazing Wife, Super Mom, Fantastic Nurse .",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Jocie",
+    avatar: "images/jocie.jpg",
+    age: 6,
+    bio: "Yup, I'm a soccer and basketball superstar",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Jackie",
+    avatar: "images/jackie.jpg",
+    age: 2,
+    bio: "I am Mrs, Nizbit",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Johnny",
+    avatar: "images/johnny.jpg",
+    age: 39,
+    bio: "I am a cool toy, I mean dad!",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Benny",
+    avatar: "images/benny.jpeg",
+    age: 11,
+    bio: "Bark Bark Bark, Yelp",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Uita Tete",
+    avatar: "images/uitatete.jpg",
+    age: 48,
+    bio: "Oh shucks, They didn't have ice cream",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Uita Fanny",
+    avatar: "images/uitafanny.jpg",
+    age: 60,
+    bio: "Tere, Toma el cafecito",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+];
+
+export default familyMembers;

@@ -1,0 +1,108 @@
+
+
+/* Layouts */
+.card-layout {
+  width: 28em;
+  height: 49em;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.top-imgs {
+  width: 34px;
+  height: 34px;
+}
+
+.logo {
+  width: 84px
+}
+
+.logo, .top-imgs, .actions {
+  margin: 10px ;
+}
+
+.actions, header {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+}
+
+/* Card Content */
+
+.image-fam-container {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+.fam-card {
+  position: relative;
+}
+
+.fam-images {
+  width: 27em;
+  border-radius: 5px;
+}
+
+.title, .bio {
+  position: absolute;
+  margin-left: 20px;
+  background-color: black;
+  padding: 0px 20px;
+}
+
+.title {
+  bottom: 40px;
+  color: white;
+}
+
+.bio {
+  bottom: 20px;
+  color: #ffffff;
+
+}
+
+.badge-like img, .badge-disliked img {
+  position: absolute;
+  width: 12em;
+  top: 55px;
+  left: 12px;
+  transform: rotate(325deg);
+}
+
+/* actions */
+
+.actions {
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn {
+  border-radius: 50%;
+  width: 40px;
+  padding: 15px;
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 0 1em 0 1em;
+}
+
+.heart-btn:hover {
+  background-color: #DBFFF4;
+;
+}
+
+.cross-btn:hover {
+  background-color: #FFE7EF;
+
+}
+
+.liked {
+  background-color: #DBFFF4;
+}
+
+.dis-liked {
+  background-color: #FFE7EF;
+}
